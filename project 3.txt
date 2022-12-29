@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Vegetable Salad</title>
+    <style>
+        body {
+            background-color:lime;
+        }
+
+        .body-container {
+            text-align: center;
+            align-items: center;
+        }
+
+        #vegetableSaladImage {
+            width: 1200px;
+            height: 800px;
+        }
+
+        .heading {
+            color:black;
+            font-size: 24px;
+        }
+
+        h3 {
+            color:black;
+            font-size: 28px;
+        }
+
+        #benefitsParagraph {
+            color:blue;
+        }
+
+        #stepForVegetableSalad {
+            display: inline-block;
+            text-align: left;
+            color: blue;
+        }
+        #footerText{
+            color: blue;
+            margin-top: 50px;
+            border-top:2px solid  brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="body-container">
+        <title id="titleName">Vegetable Salad</title>
+        <h1>VEGETABLE SALAD</h1>
+        <img width="850px" src="https://media.istockphoto.com/id/953810510/photo/green-salad-with-fresh-vegetables.jpg?s=612x612&w=0&k=20&c=OyC-xDuR4SUnY3CCnzXc1RAI12CxpLF0g-M8yQ_NeUs=" id="vegetableSaladImage" alt="Vegetable Salad">
+        <h3 id="benefits">Benifits of Vegetable Salad</h3>
+        <p id="benefitsParagraph">Vegetable salad contains Vitamin A, Vitamin C, beta-carotene, calcium, folate, fiber, and phytonutrients.Leafy vegetables are a good choice for a healthful diet because they do not contain cholesterol and are naturally low in calories and sodium.</p>
+            <h3 id="steps">Steps to make Vegetable Salad</h3>
+            <ul id="stepForVegetableSalad">
+                <li>Take a large and clear glass bowl</li>
+                <li>Add some chopped fruits and roasted vegetables</li>
+                <li>Add some finely grated vegetables of different texture </li>
+                <li>Add some dry fruits and nuts</li>
+                <li>Add one boiled egg at the top which is a good source of protein</li>
+                <li>Use fresh coriander or chives instead of parsley</li>
+            </ul>
+            <footer id="footerText">Vegetable salads are very good for health and can be consumed anytime irrespective of the clinmate</footer>
+    </div>
+    
+        
+        
+</body>
+</html>
